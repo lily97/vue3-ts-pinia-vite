@@ -1,0 +1,115 @@
+.seek-group {
+    height: auto;
+    height: auto;
+    border-radius: 2px;
+    background-color: #1d1c2c;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .seek-item {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    p {
+        color: #8193bc;
+        font-size: 14px;
+    }
+}
+
+.tableList {
+    background-color: #1d1c2c;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+
+
+.special {
+
+    // input样式覆盖
+    .el-input__inner {
+        height: 32px;
+        line-height: 32px;
+        background: hsla(0, 0%, 100%, 0);
+        color: #d8d8d8;
+    }
+
+    .el-input__wrapper {
+        height: 32px;
+        line-height: 32px;
+        color: #d8d8d8;
+        background-color: transparent;
+        padding: 0 15px;
+        box-shadow: 0 0 0 1px #45445a;
+    }
+
+    .is-focus {
+        box-shadow: 0 0 0 1px #006569 !important;
+    }
+
+    // 按钮
+    .el-button--primary {
+        background: #006569;
+        border-color: #006569;
+        transition: all .5s;
+
+        span {
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+    .el-button--primary:hover {
+        background-color: #00979D;
+        transition: all .5s;
+    }
+
+    .el-button-reset {
+        background-color: transparent;
+        border-color: #8193bc;
+
+        span {
+            color: #8193bc;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+    .el-button-reset:hover {
+        background-color: transparent;
+        border-color: #006569;
+
+        span {
+            color: #fff;
+        }
+    }
+
+    // 表格
+    .el-table{
+        color: #8193bc;
+    }
+
+    .el-table thead {
+        color: #8193bc;
+    }
+
+    .el-table__body tr:hover > td {
+        background-color: #2f2f3f !important;
+    } 
+
+    .el-table th.el-table__cell {
+        background-color: #252435;
+    }
+    .el-table__row{
+        background-color: #1d1c2c;
+    }
+
+    .el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf{
+        border-color: #2f2f3f;
+    }
+}
